@@ -34,7 +34,7 @@ export default function Home() {
       <SignedOut>
         <div className="flex h-full items-center justify-center">
           <div className="text-center p-8 bg-white shadow-xl rounded-lg border max-w-sm w-full">
-            <h1 className="text-3xl font-bold mb-4 text-blue-600">Tars AI Chat bot</h1>
+            <h1 className="text-3xl font-bold mb-4 text-blue-600">Tars Chat</h1>
             <p className="text-gray-500 mb-6 text-sm">Real-time internship challenge portal</p>
             <SignInButton mode="modal">
               <button className="w-full bg-blue-600 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition active:scale-95">
@@ -48,7 +48,7 @@ export default function Home() {
       <SignedIn>
         {/* Header: Requirement #1 (Name and Avatar) */}
         <header className="bg-white border-b px-6 py-3 flex justify-between items-center shadow-sm z-10">
-          <h1 className="font-bold text-xl text-blue-600 tracking-tight">Tars Chat</h1>
+          <h1 className="font-bold text-xl text-blue-600 tracking-tight">Tars Chat room</h1>
           <div className="flex items-center gap-4">
             <span className="hidden sm:inline text-sm font-medium text-gray-600">
               {user?.fullName}
