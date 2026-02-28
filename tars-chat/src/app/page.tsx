@@ -48,7 +48,7 @@ export default function Home() {
       <SignedIn>
         {/* Header: Requirement #1 (Name and Avatar) */}
         <header className="bg-white border-b px-6 py-3 flex justify-between items-center shadow-sm z-10">
-          <h1 className="font-bold text-xl text-blue-600 tracking-tight">Tars Chat room</h1>
+          <h1 className="font-bold text-xl text-blue-600 tracking-tight">Tars Chat</h1>
           <div className="flex items-center gap-4">
             <span className="hidden sm:inline text-sm font-medium text-gray-600">
               {user?.fullName}
